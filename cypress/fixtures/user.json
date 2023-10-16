@@ -1,0 +1,7 @@
+{
+	"invalidEmail": "notAllowedString",
+	"validEmail": "unExistingEmail@gmail.com",
+	"firstName": "Tester",
+	"secondName": "Testov",
+	"password": "CorrectPasswrod123.?"
+}

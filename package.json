@@ -1,9 +1,25 @@
 {
+	"name": "telnyx-cypress",
+	"version": "1.0.0",
+	"description": "Ten test cases created with Cypress for Telnyx website",
 	"devDependencies": {
 		"cypress": "^13.3.1"
 	},
 	"scripts": {
 		"cy": "npx cypress open",
-		"cy-record": "npx cypress run --browser chrome --record --key fb664028-1de4-4dc8-9229-4efaa8c1ed89"
-	}
+		"cy-record": "npx cypress run --browser chrome --record --key fb664028-1de4-4dc8-9229-4efaa8c1ed89",
+		"cy-headless": "npx cypress run --headless --browser chrome"
+	},
+	"keywords": [
+		"cypress",
+		"qa",
+		"login",
+		"invalidLogin",
+		"createUser",
+		"navigateFromHomePage",
+		"submitForm",
+		"formValidation",
+		"telnyx"
+	],
+	"author": "Oleksandr Karpovych"
 }
